@@ -211,6 +211,10 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ng serve --host 0.0.0.0 --port 4200
 ```
 
+
+https://github.com/user-attachments/assets/07b18fbf-ff67-413a-9a36-e6057d081019
+
+
 ## Contributing
 
 This is a complete, production-ready application. For enhancements:
