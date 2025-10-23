@@ -1,0 +1,41 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+
+# Node Modules
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDE files
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Angular cache / build files (This is the crucial part!)
+/.angular/cache
+/src/assets/docs-content/api-docs
+/coverage
+
+# Environments file (if it contains secrets)
+/src/environments/environment*.ts
+
+# Misc
+*.log
+*.lock
+
+# Backend specific ignores
+/backend/venv
+/backend/__pycache__
+/backend/*.db
+/backend/*.db-journal
+/backend/.env
+
+# Operating System files
+.DS_Store
+Thumbs.db
