@@ -20,7 +20,7 @@ app = FastAPI(title="SamayGen API", version="1.0.0", lifespan=lifespan)
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:4200", "http://127.0.0.1:4200"],  # Angular dev server
+    allow_origins=["http://localhost:4200", "http://127.0.0.1:4200","https://samay-gen.vercel.app"],  # Angular dev server
     allow_credentials=True,
     allow_methods=["*"],  # Allow all methods including OPTIONS
     allow_headers=["*"],  # Allow all headers
